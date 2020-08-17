@@ -2,9 +2,25 @@
 To write a program using non recursive functions that perform the linear searching operations for a key value in a given list of integers.
 
 ##EXPLANATION:
-The linearsearch without recursive should be straightforward.It loops through the array starting from the beginning until it finds an element in the array.If the val argument was 20 the function would return -1.
-
-###STEP BY STEP PROCEDURE
+The linearsearch without recursive should be straightforward.It loops through the array starting from the beginning until it finds an element in the array.If the val argument was 20 the function would return -1.M:To find the position of key element using the linear search
+* sequential search is used whenever the list is ordered.
+* generally we use techniques only for small lists or lists that are not searched often.
+* In the sequential search, we start searching for the target from the beginning of the
+list,and we continue until we find the target or untilwe are sure that it is not in the list.
+* This gives us two possibilities:
+either we find it or
+we reach the end of the list
+#step by step procedure 
+=&gt; we have the array elements[12,61,33,92,36,3,29,98,54,60]
+=&gt; for the output 1 the key element we need to search is 36
+=&gt; in tne iterative process we check if the element and the key value are same
+=&gt; in iteration 1 a[0] = 12 key is not equal to 66,so the case fails
+=&gt; in iteration 2 a[1] = 61 key is not equal to 66,so the case fails
+=&gt; in iteration 3 a[2] = 33 key is not equal to 66,so the case fails
+=&gt; similarly iteration continues until the element and key value are same
+=&gt; in iteration 5 a[5] = 36 is equal to 36 so case passed
+=&gt; in the function the iteration takes place and the element with index printed to the output
+=&gt; if all the iteration cases falis the it returns element not found to the output
   
 #include<stdio.h>
 int main()
