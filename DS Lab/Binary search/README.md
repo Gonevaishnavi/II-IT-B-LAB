@@ -1,6 +1,42 @@
 #AIM:To write a program to search an element in an array by using binary search recursive method.
 
 ##DESCRIPTION:Binary search is used to find the position of an element in a sorted array.The array should be sorted prior to applying a binary search.
+• If the array is not sorted ,linear search is the only solution.
+• If the list is sorted , we can use a more efficient algorithm called
+the binary search.
+• We should use a binary search whenever the list starts to become large.
+• The binary search starts by testing the data in the element at the middle of the list.
+• This determines if the target is in first half or second half of the list.
+• If it is in first half , we do not need to check the second half.
+• If it is in second half , we do not need to check the first half.
+• In other words ,either way we eliminate half the list from further
+consideration.
+• We repeat this process until we find the target or satisfy ourselves
+that it is not in the list.
+• To find the middle of the list we three variables,
+one to identify the beginning of the list(first)
+one to identify the beginning of the list(mid)
+one to identify the beginning of the list(last)
+mid=( first + last )/2
+1
+step by step procedure
+ explaining each ouput
+=&gt; first we have to sort the array, after sorting we have array
+=&gt; array= [3,12,29,33,36,54,60,61,92,98]
+=&gt; for output 1 the keyvalue we need to search is 12
+=&gt; for output 2 the keyvalue we need to search is 92
+=&gt; for output 3 the keyvalue we need to search is 33
+=&gt; by using loops and conditions we can obtain the output
+=&gt; first we find the mid value ,ie; mid= low+high/2
+=&gt; if keyvalue is less then mid value ,we use mid-1
+=&gt; if keyvalue is greater then mid value ,we use mid+1
+=&gt; at last in output we enter the element it to be found it gives its index or array value
+=&gt; if the element is not in the list of the array its gives notfound or error
+1.Elements:a[0]=3,a[1]=12,a[2]=24,a[3]=33,a[4]=36,a[5]=54,a[6]=60,a[7]=61,a[8]=92,a[9]=98
+2.key elements= 12,92,33
+3. 1st key element = 12
+4.Iteration 1:
+       Low =  0,High = 9,Mid = 4
 
 ###STEP BY STEP PROCEDURE:
 1.Elements:a[0]=3,a[1]=12,a[2]=24,a[3]=33,a[4]=36,a[5]=54,a[6]=60,a[7]=61,a[8]=92,a[9]=98
