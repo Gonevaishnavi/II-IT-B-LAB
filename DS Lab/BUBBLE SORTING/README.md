@@ -63,5 +63,30 @@ Procedure of obtaining output:
 4.	But, in this case, the elements are already sorted.
 5.	So, after entering the elements (that are already sorted), it 
 6.	    prints"The elements are already sorted."
+ii) Bubble sorting of sorted array
+Procedure of obtaining output:
+1.	Read elements of the array and number of the array elements.
+2.	Here n = 5 and array = {-1,4,2,-8,9}
+3.	As the number of elements is 5, the number of iterations will be 4(n-1).
+1st iteration
+-1, 4, 2, -8, 9
+   4>2, so it swaps
+-1 , 2, 4 , -8, 9
+4>-8 so it swaps
+-1 , 2 , -8 , 4 ,9
+2nd iteration
+-1 , 2 , -8 , 4 , 9
+2>-8 so it swaps
+-1 , -8 , 2 , 4 , 9
+3rd iteration
+-1 , -8 , 2 , 4 , 9
+-1>-8 so it swaps
+-8 , -1 , 2 , 4 , 9
+ 4th iteration 
+-8 , -1 , 2 , 4 , 9
+By the end of the fourth iteration, the fourth greatest element lies at the end. Here, it is 4 which is last fourth from the end. And the array elements (after the com
+pletion of 4th iteration) are:
+       -8	      -1	       2	       4	       9
+
 
 
