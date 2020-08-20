@@ -87,6 +87,32 @@ Procedure of obtaining output:
 By the end of the fourth iteration, the fourth greatest element lies at the end. Here, it is 4 which is last fourth from the end. And the array elements (after the com
 pletion of 4th iteration) are:
        -8	      -1	       2	       4	       9
+      
+(iii)Bubble sorting of unsorted array
+Procedure of obtaining output:
+1.	Read elements of the array and number of the array elements.
+2.	Here n = 5 and array = {8, 6, 4, 7, 2}
+3.	As the numbers of elements present are 5, the number of iterations will be 4(n-1).
+
+1st iteration:
+2, 1 , 4 , 3 , 5
+2>1 so it swaps
+1 , 2 , 4 , 3 , 5
+
+2nd iteration
+1 , 2 , 4 , 3 , 5
+2<4 so iis remain same
+1	,2  ,4  ,3  ,5
+3rd iteration
+1 , 2 , 4 , 3 , 5
+4>3 so it swaps
+1 , 2 ,3 , 4 ,5
+4th iteration
+1 , 2 , 3 , 4 , 5
+By the end of the fourth iteration, the fourth greatest element lies at the end. Here, it is 4 which is last fourth from the end. And the array elements (after the com
+pletion of 4th iteration) are:
+       1	        2	        3	        4	        5
+      
 
 
 
