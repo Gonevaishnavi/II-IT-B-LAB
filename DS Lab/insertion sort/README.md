@@ -66,5 +66,5 @@ i = 3. 7 is greater than the 4 than the element 4 move and insert 4 before7 and 
 1,3,4,7,9
 Then final array elements after sorting the all elements 
 1,3,4,7,9
-Then the expected output is:
+
 
